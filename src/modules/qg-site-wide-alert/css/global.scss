@@ -1,0 +1,40 @@
+/** Global Site Wide Alert **/
+.qg-site-wide-alert {
+    clear: both;
+    padding: 1rem 0.3125rem;
+}
+
+.qg-site-wide-alert .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.qg-site-wide-alert i {
+    font-size: 2rem;
+    padding-right: 0.75rem;
+}
+
+.qg-site-wide-alert-content > *:first-child {
+    margin-top: 0;
+}
+
+.qg-site-wide-alert-content > *:last-child {
+    margin-bottom: 0;
+}
+
+.qg-site-wide-alert__grey {
+    background-color: $forgov-darkgrey;
+    color: #fff;
+    a, a:hover, a:active{
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .qg-site-wide-alert .container-fluid {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}

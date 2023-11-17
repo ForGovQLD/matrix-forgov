@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Inside page</title>
+    ${require('../modules/_global/html/head.html')}
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!--noindex-->
+        ${require('../modules/_global/html/global-header.html')}
+        <!--endnoindex-->
+
+        <div class="container-fluid qg-site-width">
+            <div id="qg-content" class="qg-wide">
+                ${require('../modules/qg-event-search/html/index.html')}
+            </div><!-- /#qg-content -->
+        </div>
+
+        <!--noindex-->
+        ${require('../modules/_global/html/global-footer.html')}
+        <!--endnoindex-->
+    </div><!-- /.page-wrapper -->
+    <div class="footer-scripts">
+        ${require('../modules/_global/html/scripts.html')}
+    </div>
+</body>
+
+</html>

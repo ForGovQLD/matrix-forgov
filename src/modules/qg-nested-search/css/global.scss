@@ -1,0 +1,106 @@
+/*
+ * Mobile layout
+ */
+
+.qg-nested-search {
+
+    .qg-card.qg-card__light-theme .content .details a,
+    .qg-card.qg-card__light-theme .content .details a:not(.btn):not(.qg-btn):not(.stretched-link):active,
+    .qg-card.qg-card__light-theme .content .details a:not(.btn):not(.qg-btn):not(.stretched-link):focus,
+    .qg-card.qg-card__light-theme .content .details a:not(.btn):not(.qg-btn):not(.stretched-link):hover,
+    .qg-card.qg-card__light-theme .content .details a:not(.btn):not(.qg-btn):not(.stretched-link):visited,
+    .qg-card.qg-card__light-theme .content .details a:not(.qg-btn):not(.stretched-link):active,
+    .qg-card.qg-card__light-theme .content .details a:not(.qg-btn):not(.stretched-link):focus,
+    .qg-card.qg-card__light-theme .content .details a:not(.qg-btn):not(.stretched-link):hover,
+    .qg-card.qg-card__light-theme .content .details a:not(.qg-btn):not(.stretched-link):visited {
+        color: #13578b !important;
+    }
+
+    .qg-card-meta {
+        display: block;
+        font-size: 0.9375rem;
+        font-weight: bold;
+        margin-bottom: 0.75rem;
+    }
+
+    .select2-container {
+        max-width: 100%;
+    }
+
+    // Fix padding
+    .select2-container .select2-search--inline {
+        float: none;
+    }
+
+    // Select 2 input style
+    .select2-container--default .select2-selection--multiple {
+        border: 1px solid #ccc;
+        border-radius: 0;
+        padding: .175em .25em;
+    }
+
+    // Chevron
+    .select2-selection--multiple:before {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 2px);
+        border-top: 5px solid #333;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+    }
+    .select2-container--open .select2-selection--multiple:before {
+        transform: rotate(180deg);
+    }
+
+    .form-group.w-100 {
+        input,
+        select {
+            width: 100%;
+        }
+    }
+}
+
+.qg-nested-search-summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        margin-right: 20px;
+    }
+}
+
+.qg-nested-search-sort {
+    flex-shrink: 0;
+    margin-bottom: 0.75rem;
+}
+
+
+/*
+ * Tablet layout
+ */
+
+@media screen and (min-width: $tablet){
+    .qg-nested-search-summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            margin-right: 20px;
+        }
+    }
+}
+
+
+/*
+ * Desktop layout
+ */
+
+@media screen and (min-width: $desktop){
+    .qg-search-widget {
+        
+    }
+}

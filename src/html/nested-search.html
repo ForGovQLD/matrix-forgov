@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nested search</title>
+    <link rel="stylesheet" href="https://www.qld.gov.au/__data/assets/css_file/0021/60483/select2.min.css">
+    ${require('../modules/_global/html/head.html')}
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!--noindex-->
+        ${require('../modules/_global/html/global-header.html')}
+        <!--endnoindex-->
+
+        <div class="container-fluid qg-site-width">
+            <div id="qg-content">
+
+                <div id="qg-three-col" class="row no-secondary-nav">
+
+                    <div id="qg-primary-content" role="main">
+
+                        <a class="print-content-link" href='#'><span class="fa fa-print"></span> Print</a>
+                        <h1>Search for directives, policies, circulars, and guidelines</h1>
+
+                        <p>Lorem ipsum dolor</p>
+
+                        ${require('../modules/qg-nested-search/html/index.html')}
+
+                        <div class="clearfix"></div>
+
+                        ${require('../modules/qg-content-footer/html/index.html')}
+                        ${require('../modules/qg-options/html/index.html')}
+                    </div>
+
+                    <aside id="qg-secondary-content"></aside>
+
+                    ${require('../modules/qg-section-nav/html/index.html')}
+
+                </div><!-- /page type -->
+            </div><!-- /#qg-content -->
+        </div>
+
+        <!--noindex-->
+        ${require('../modules/_global/html/global-footer.html')}
+        <!--endnoindex-->
+    </div><!-- /.page-wrapper -->
+    <div class="footer-scripts">
+        ${require('../modules/_global/html/scripts.html')}
+        <script src="https://www.qld.gov.au/__data/assets/js_file/0020/60482/select2.min.js"></script>
+    </div>
+</body>
+
+</html>

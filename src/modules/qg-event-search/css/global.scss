@@ -1,0 +1,204 @@
+#qg-content .forgov-two-column.row #qg-secondary-content {
+    left: 0;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 991px) {
+    #qg-content .forgov-two-column.row #qg-secondary-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 0;
+    }
+}
+
+.qg-forgov-cards .qg-card .content .details {
+    background-color: #fff;
+    margin-top: -2.1875rem;
+    padding-bottom: 2.1875rem;
+}
+
+.qg-forgov-cards .qg-card .content .details .qg-card-category {
+    display: inline-block;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d1d1d1;
+    color: #13578b;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.qg-forgov-cards .qg-card .content .details .qg-card-category__title {
+    background-color: white;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.qg-forgov-cards .qg-card .content .details .qg-card-category__num {
+    background-color: #d1d1d1;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.qg-forgov-cards .qg-card .content .details .qg-card-date {
+    display: block;
+    margin-bottom: 0.625rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.qg-forgov-cards .qg-card .content .details h2 {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+.qg-forgov-cards .qg-card .content .details p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.event-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+    .event-header {
+        display: block;
+    }
+}
+
+.event-header-sort {
+    margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+}
+
+.event-header-sort label {
+    font-weight: bold;
+    margin-right: .4375rem;
+}
+
+.qg-event-search .qg-event-search-field {
+    margin-top: 0.75rem;
+}
+
+.qg-event-search .qg-event-search-field .sq-form-field {
+    width: 100%;
+}
+
+.qg-event-search .qg-event-search-actions {
+    margin: 1rem 0 1.5rem;
+}
+/*
+.qg-event-search .qg-event-search-actions input[type=submit],
+.qg-event-search .qg-event-search-actions input[type=reset] {
+    color: #000;
+    padding: 0.5rem 1.3125rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    border: 0;
+    //text-decoration: underline;
+}
+
+.qg-event-search .qg-event-search-actions input[type=submit]:focus,
+.qg-event-search .qg-event-search-actions input[type=reset]:focus,
+.qg-event-search .qg-event-search-actions input[type=submit]:hover,
+.qg-event-search .qg-event-search-actions input[type=reset]:hover {
+   // text-decoration: none;
+}
+
+.qg-event-search .qg-event-search-actions input[type=submit] {
+    background-color: #9AC02C;
+    font-weight: bold;
+}
+
+.qg-event-search .qg-event-search-actions input[type=reset] {
+    background-color: #fff;
+    color: #13578b;
+    font-weight: 400;
+}*/
+
+.qg-event-search .qg-accordion.qg-accordion-v2 article{
+    border: 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 article:last-child {
+    border-bottom: 0 !important;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 h3 {
+    margin: 0;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 .title {
+    font-size: 1rem;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 article .collapsing-section {
+    border-top: 0;
+    padding: 5px 5px 10px 5px;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 table {
+    margin: 0;
+    width: 100%;
+}
+
+.qg-event-search .qg-search-checkbox table {
+    max-height: 250px;
+    overflow: auto;
+    border: 1px solid #ced4da;
+    display: block;
+}
+
+.qg-event-search .qg-search-date tr {
+    display: flex;
+    flex-direction: column;
+}
+
+.qg-event-search .qg-search-date td {
+    display: block;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 .qg-search-date td {
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.qg-event-search .qg-search-date input {
+    padding: 0.45em;
+    width: 100%;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 tbody {
+    background: transparent;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 td {
+    padding: 0;
+    text-align: left;
+}
+
+.qg-event-search .qg-search-checkbox td {
+    display: flex;
+}
+
+.qg-event-search .qg-accordion.qg-accordion-v2 .qg-search-checkbox input[type=checkbox] {
+    margin: 7px 7px 7px 6px;
+}
+
+.qg-event-search .qg-search-checkbox label {
+    color: #495057;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}

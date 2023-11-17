@@ -1,0 +1,50 @@
+/*
+ * Mobile layout
+ */
+
+.qg-private-content {
+    margin-bottom: 1.5rem;
+    margin-top: -0.25rem;
+}
+
+.qg-private-content-link {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #d22d24;
+    padding: 0.3rem 0;
+
+    i {
+        font-size: 1.25rem;
+        margin-right: 0.3rem;
+        vertical-align: middle;
+    }
+}
+
+#qg-content .qg-private-content .qg-private-content-link {
+    &:focus,
+    &:hover {
+        color: #e05149;
+    }
+}
+
+
+/*
+ * Tablet layout
+ */
+
+@media screen and (min-width: $tablet){
+    .qg-private-content__wrapper {
+
+    }
+}
+
+
+/*
+ * Desktop layout
+ */
+
+@media screen and (min-width: $desktop){
+    .qg-private-content__wrapper {
+        
+    }
+}
